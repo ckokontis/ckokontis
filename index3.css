@@ -7,14 +7,11 @@ footer .row {                        /*div within container div*/
 .jumbotron{
   display: flex;
   align-items: center;
-  background-image: url("Bay.JPG");
   background-size:cover;
-  height: 650px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
 img{
-
+  margin-bottom:0px;
 }
 
 footer {
@@ -24,6 +21,7 @@ footer {
 footer h1 {                              /*Claire Kokontis*/
   font-weight: 700;
   margin: 0;
+  font-family: "futura";
 }
 
 footer nav {                             /*Nav bar*/
@@ -38,36 +36,49 @@ footer p {                              /*Portfolio, Jewelry, Make*/
 
 }
 
-
-
-
-
-/* Collection CSS */
-#collection{
-  justify-content: center;
+p{
+  font-family: "futura";
+  color:black;
 }
 
-#collection h1{
-  font-size:60px;
-  margin-top: 60px;
-}
-
-.col-ms-4 {
-  margin: 60 0 0px;
+p:hover{
+  color:#ffd11a;
 }
 
 section .row img{      /*images*/
   width:100%;
-  margin: 60px 0 100px;
-}
-
-.container header{
+  margin: 0px;
 
 }
 
-.container section{
+.menu{
+  float:right;
+  list-style:none;
 
+  font-family: "futura";
+  font-size: 20px;
+  padding: 0 30px;
 }
+
+.menu a{
+  color:black;
+  letter-spacing: 2px;
+}
+
+.menu a:hover{
+  color:#ffd11a;
+}
+
+
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+
+
 
 /*#right-image{
   margin-left: 10px;

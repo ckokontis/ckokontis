@@ -35,6 +35,15 @@
   color:white; /*if there's a link, you have to set the color in an a tag, not in a div or p*/
 }
 
+.menu a:hover{
+  color:#ffd11a;
+}
+
+li{
+  font-family: "futura";
+  color:black;
+}
+
 .title{
   margin-top:20px;
 }
@@ -139,11 +148,16 @@ img {
 
 .navigation{
   margin-top: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'futura', sans-serif;
   display:inline;
   color: black;
   font-size: 50px;
 }
+
+
+
+
+
 
 /*!
  *  Font Awesome 4.1.0 by @davegandy - http://fontawesome.io - @fontawesome

@@ -1,3 +1,21 @@
+.back{
+  margin-top:20px;
+  margin-left:30px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+p:hover{
+  color:#ffd11a;
+}
+
+
+.title h1{
+    font-size:30px;
+    margin-top: 0px;
+    font-family: "futura";
+  }
+
 body{
   height:100%;
 }
@@ -11,10 +29,7 @@ body{
 /* Header */
 
 .header {
-  /*background-color: rgba(255, 255, 255, 0.95);*/
-  /*border-bottom: 1px solid #ddd;*/
-
-  font-family: 'Oswald', sans-serif;
+  font-family: 'futura', sans-serif;
   font-weight: 300;
   font-size: 17px;
 }
@@ -30,6 +45,10 @@ body{
   letter-spacing: 2px;
 }
 
+.menu a:hover{
+  color:#ffd11a;
+}
+
 .menu > li {
   display: inline;
   padding-left: 20px;
@@ -37,7 +56,7 @@ body{
   padding-top: 20px;
 }
 
-
+/*carousel*/
 .slide {
   background-size: cover;
   display: none;
@@ -51,34 +70,34 @@ body{
 .slider {
   position: relative;
   width: 100%;
-  height: 700px;
+  height: 610px;
 }
 
 .row{
   width:820px;
   position: absolute;
-  margin-top: 90px;
-  padding-left:350px;
+  margin-top: 30px;
+  padding-left:360px;
 }
 
 .row_v{
   width:780px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 30px;
   padding-left:340px;
 }
 
 .row_h{
-  width:1000px;
+  width:970px;
   position: absolute;
-  margin-top: 90px;
-  padding-left:150px;
+  margin-top: 30px;
+  padding-left:190px;
 }
 
 .row_d{
   width:850px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 30px;
   padding-left:260px;
 }
 
@@ -86,14 +105,14 @@ body{
 .row_b{
   width:850px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 30px;
   padding-left:260px;
 }
 
 .row_c{
   width:820px;
   position: absolute;
-  margin-top: 90px;
+  margin-top: 30px;
   padding-left:260px;
 }
 
@@ -127,7 +146,7 @@ img {
 .arrow-prev {
   display: inline-block;
   vertical-align:top;
-  margin-top: 9px;
+  margin-top:top;
   margin-left: 70px;
   color:black;
   font-size: 40px;
@@ -137,18 +156,26 @@ img {
 .arrow-next {
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
+  margin-top: 0px;
   margin-right:70px;
   color:black;
   font-size: 40px;
   float: right;
 }
 
+.arrow-next :hover{
+  color:#ffd11a;
+}
+
+.arrow-prev :hover{
+  color:#ffd11a;
+}
+
 .slider-dots {
   list-style: none;
   display: inline-block;
   padding-left: 0;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .slider-dots li {
@@ -159,7 +186,7 @@ img {
 
 
 .slider-dots li.active-dot {
-  color: grey;
+  color:#ffd11a;
 
 }
 
